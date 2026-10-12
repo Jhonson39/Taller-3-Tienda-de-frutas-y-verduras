@@ -1,0 +1,8 @@
+[
+  {"sku": "F001", "nombre": "Manzana roja", "tipo": "Fruta", "precio": 2500, "unidad": "libra"},
+  {"sku": "F002", "nombre": "Banano", "tipo": "Fruta", "precio": 1800, "unidad": "libra"},
+  {"sku": "F003", "nombre": "Mango", "tipo": "Fruta", "precio": 3000, "unidad": "unidad"},
+  {"sku": "V001", "nombre": "Zanahoria", "tipo": "Verdura", "precio": 2200, "unidad": "libra"},
+  {"sku": "V002", "nombre": "Tomate", "tipo": "Verdura", "precio": 2800, "unidad": "libra"},
+  {"sku": "V003", "nombre": "Lechuga", "tipo": "Verdura", "precio": 2000, "unidad": "unidad"}
+]

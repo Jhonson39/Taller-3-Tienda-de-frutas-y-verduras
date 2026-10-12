@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block titulo %}Frutas y Verduras{% endblock %}</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 30px auto; padding: 0 16px; background: #f7fbf3; color: #263326; }
+    header { padding: 18px; background: #dff0d2; border-radius: 10px; }
+    a { color: #246b35; }
+    .productos { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 20px; }
+    .producto { padding: 16px; background: white; border: 1px solid #d7e5d0; border-radius: 10px; }
+    .precio { font-weight: bold; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>🥕 Frutas y Verduras JH</h1>
+  <p>Productos frescos para tu hogar</p>
+  <a href="/">Ver todos</a> |
+  <a href="/?tipo=Fruta">Frutas</a> |
+  <a href="/?tipo=Verdura">Verduras</a>
+</header>
+{% block contenido %}{% endblock %}
+</body>
+</html>
